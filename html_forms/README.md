@@ -37,3 +37,14 @@ Include fields for the user’s name, email, checkboxes for various feedback opt
 Ensure that the user can select multiple checkboxes.
 Specify the file upload field using the <input type="file"> element.
 Implement HTML5 validation to ensure the name, email, at least one checkbox, and a file are filled out.
+
+Survey Form with Select Dropdown, Time, and Date Selection: Design an HTML survey form with a select dropdown to collect user preferences, along with time and date selection:
+
+Include fields for the user’s name, email, a select dropdown for their favorite color (options: red, blue, green), and separate fields for time and date selection.
+Apply HTML5 validation to ensure all fields are required, including the select dropdown, time, and date fields.
+
+To implement the time and date selection, use the following input types:
+
+For time: <input type="time">
+
+For date: <input type="date">
