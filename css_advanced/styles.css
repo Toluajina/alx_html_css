@@ -1,76 +1,138 @@
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
+/* this is the stylesheet for css advanced project */
+:root {
+  --color-white: #fff;
+  --color-violet: #c271ff;
+  --font-small: 12px;
+  --font-medium: 16px;
+  --font-large: 32px;
+  --font: "Source Sans Pro", "Lato", sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  margin: 0;
 }
 
 header {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  display: flex;
+  width: 1440px;
+  min-height: 1093px;
+  background-image: url(images/Object.png);
+  color: var(--color-white);
+}
+
+header .header {
   justify-content: space-between;
-  align-items: center;
+  align-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
 }
 
-nav ul {
-  list-style-type: none;
+header .nav {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-content: space-between;
+  list-style: none;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+.header {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
 }
 
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
+nav .navbar-menu {
+  flex-direction: column;
 }
 
-section {
-  margin-bottom: 30px;
+.nav .nav-link {
+  text-decoration: none;
+  color: #fff;
 }
 
-section img {
-  max-width: 100%;
+/** Logo Styles **/
+.header-logo {
+  width: 161px;
   height: auto;
 }
 
-button {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #555;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
+.get-schooled {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  transform: translate(-50%-50%);
   text-align: center;
 }
 
-footer img {
-  max-width: 100%;
-  height: auto;
+.get-schooled h1 {
+  font-size: 120px;
+  width: auto;
 }
 
-footer a {
-  margin-right: 20px;
+.get-schooled p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 34px;
+  border: 1px solid #fff;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
