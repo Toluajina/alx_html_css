@@ -17,3 +17,10 @@ Include fields for the user’s name, email address, and message.
 Apply appropriate HTML5 validation attributes to ensure the name and email fields are required and that the email field accepts a valid email format.
 Use a <textarea> element for the message field to allow for a long description and not limit it to just one line.
 Add a submit button to submit the form.
+
+Registration Form: Design an HTML registration form with the following specifications:
+
+Include fields for the user’s name, email, password, and confirm password.
+Implement HTML5 validation attributes to ensure all fields are required,
+And the email field accepts a valid email format, and the password fields match.
+Use appropriate input types (e.g., email, password) and labels for each field.
