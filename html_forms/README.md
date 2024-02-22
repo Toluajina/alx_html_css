@@ -30,3 +30,10 @@ Subscription Form with Radio Buttons: Build an HTML form for a subscription with
 Include fields for the user’s name, email, and subscription preference (monthly, yearly).
 Utilize radio buttons for the subscription preference and ensure that the user can only select one option.
 Apply HTML5 validation to ensure all fields are required and the email field accepts a valid email format.
+
+Feedback Form with Checkboxes and File Upload: Develop an HTML feedback form with checkboxes to capture user opinions and the ability to upload a file:
+
+Include fields for the user’s name, email, checkboxes for various feedback options (e.g., excellent, good, average, poor), and a file upload field.
+Ensure that the user can select multiple checkboxes.
+Specify the file upload field using the <input type="file"> element.
+Implement HTML5 validation to ensure the name, email, at least one checkbox, and a file are filled out.
